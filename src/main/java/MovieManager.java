@@ -7,7 +7,7 @@ public class MovieManager {
     }
 
     public void addMovie(String movie) {
-        String[] tmp =  new String[movies.length + 1];
+        String[] tmp = new String[movies.length + 1];
         for (int i = 0; i < movies.length; i++) {
             tmp[i] = movies[i];
         }
@@ -31,5 +31,5 @@ public class MovieManager {
             tmp[i] = movies[movies.length - 1 - i];
         }
         return tmp;
-      }
+    }
 }
